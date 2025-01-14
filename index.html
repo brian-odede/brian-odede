@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ella T CV</title>
+    <!-- External CSS Framework: Materialize -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" rel="stylesheet">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Link to style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- this is the main body of code. It is written in html which is a language used to create and structure content on the web.
+We will go though and edit the code to include information about you.-->
+
+<body>
+<div id="Printable Content">      
+    <!-- This section acts as a side bar. Indlude information such as your profile picture, name, contact detials -->
+    <div id="sidebar">
+    
+      <!-- -->
+      <header>
+          <img class="profile-img" src="profile.jpg" alt="Profile Picture"> <!-- save your profile pictire as profile.jpg, doesn't have to be a picture of you-->
+          <ul>
+              <li><h3><b>BRIAN ODEDE</b></h3></li> <!-- name -->
+              <li> STORE MANAGER</li> <!-- 1-3 word description, a.k.a. student-->
+          </ul>
+      </header>
+    
+      <!-- Contact Buttons (Email, Phone, LinkedIn), insert yout email, phone number and linked in. Can add or remove as needed.-->
+      <div class="contact-buttons">
+          <button class="contact-button" id="email-button" onclick="window.location.href='mailto:YOU@email.com'">Email:brian.odede97@gmail.com </button>
+          <button class="contact-button" id="phone-button" onclick="window.location.href='tel:+44123 456789'">Phone: +44 7470005504</button>
+          <button class="contact-button" id="linkedin-button" onclick="window.location.href=''">LinkedIn</button>
+      </div>
+
+        <div class="center-align">
+       <a href="./CV_EllaTownson.pdf" 
+          download="CV_EllaTownson.pdf"> <!-- change to name of your document-->
+        <button id="downloadPdf" class="btn waves-effect waves-light">Download CV</button>
+       </a>
+       </div>
+    
+    
+    </div>
+
+    <!-- Main Content Section -->
+    <div id="main-content">
+      <!-- About Me Section -->
+      <section id="about" class="container">
+          <h2 class="header">About Me</h2>
+          <!-- include a paragraph describing you/your interests hobbies --> 
+          <p>
+            I am a 25 year old critical thinker motivated and a detail oriented professional in leadership and strategic planning with over four(4)years experience in sales and store management
+          </p>
+      </section>
+    
+        <!-- Skills Section -->
+        <!-- This has a bar chart demonstrating your skills going from low to most experience. 
+         Chose 5 of your top Skills. 
+         Can be adjusted as needed -->
+        <div class="container">
+          <h2>Skill Set</h2>
+          <div class="bar learning" 
+          data-skill="attention to detail"></div> <!-- Insert your skills here as "skill"-->
+          <div class="bar back basic" 
+          data-skill="fast thinking"></div> <!-- Insert your skills here as "skill"-->
+          <div class="bar back advanced" 
+          data-skill="writing"></div> <!-- Insert your skills here as "skill"-->
+          <div class="bar front advanced" 
+          data-skill="communication"></div> <!-- Insert your skills here as "skill"-->
+          <div class="bar front expert" 
+          data-skill="critical thinking"></div> <!-- Insert your skills here as "skill"-->
+        </div>
+        
+        <!-- the following codes for two time lines. On the RHS is experience, this can include events today. On the LHS is education. 
+         We can add or remove sections as neccessary. For each item provide: DATE, ROLL TITLE, ROLL DESCRIPTION.  -->
+        
+        <!-- Wrapper container for Experience and Education -->
+          <h2>Experience and Education</h2>
+          <div id="container">
+              <!-- Experience Section -->
+              <ul class="timeline">
+                  <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                          <p class="timeline-event-thumbnail">01/2021 - Present</p> <!--date -->
+                          <h3>STORE MANAGER |  STEEL AND TUBE INDUSTRIES LTD</h3> <!-- TITLE -->
+                          <h4>LOGISTICS</h4> <!-- ROLL -->
+                          <p><strong>Current Role:</strong><br>
+                          <!-- Short Description -->
+                          STEEL AND TUBE INDUSTRIES LTD organised a sports day for its employees where by i was asked to chair the budgeting and procurement committee which i did by appointing the committee and allocating each of them a role in the procurement tasks to handle hence the day was a success,ran smoothly and efficiently.
+
+                        </p>
+                      </div>
+                  </li>
+      
+                <!-- Education Section -->
+                <ul class="timeline">
+                  <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                          <p class="timeline-event-thumbnail">09/2020 - 06/2024</p> <!--date-->
+                          <h3>DIPLOMA IN LOGISTICS AND PROCUREMENT| MAKERERE UNIVERSITY UGANDA</h3> <!--What|where-->
+                          <p><strong>Details:</strong><br>
+                          <!-- brief decription-->
+                          Completed A diploma in logistics and procurement at makerere university, 
+                          with an award of a diploma in logistics and procurement. Graduated with class A as the best grading of the course.
+                        </p>
+                      </div>
+                  </li>
+      
+          </div>
+
+  
+    
+
+</div>
+
+
+</body>
+</html>
